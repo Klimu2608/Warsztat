@@ -190,7 +190,7 @@ h1 {
 }
 .section3__content {
     max-width: 1124px;
-    margin: 105px auto;
+    margin: 0 auto;
 }
 .content {
     height: 370px;
@@ -230,7 +230,8 @@ h1 {
 }
 .macbook {
     height: 100%;
-    padding: 113px 118px;
+    padding-top: 113px;
+    padding-right: 118px;
     position: relative;
 }
 .macbook img {
@@ -280,4 +281,33 @@ h1 {
     position: absolute;
     top: 12px;
     left: 70px;
+}
+.content__last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.increase {
+    height: 370px;
+    background-color: white;
+    border-radius: 5px;
+}
+.increase::after {
+    content: "";
+    display: block;
+    width: 327px;
+    height: 4px;
+    margin-top: 50px;
+    background-color: #55DFB4;
+}
+.trumpet {
+    height: 370px;
+    width: 440px;
+    background-color: #55DFB4;
+    border-radius: 5px;
+    padding: 98px 82px 64px 62px;
+}
+.trumpet img {
+    width: 296px;
+    height: auto;
 }
